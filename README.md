@@ -13,7 +13,8 @@ This Python script is designed to alert users about low prices for flights to va
 
 1. Set the `ORIGIN_CITY_IATA` variable to the IATA code of the origin city (e.g., "LON" for London).
 2. Ensure the required modules (`data_manager`, `flight_search`, `notification_manager`) are available and properly configured.
-3. Run the script.
+3. Ensure there is a google sheet with columns `City`, `IATA Code` and `Lowest Price` and the sheet is connected to `sheety` for api calls
+4. Run the script.
 
 ## Overview
 
